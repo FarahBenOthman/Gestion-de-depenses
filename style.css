@@ -1,0 +1,60 @@
+h1{
+    border-radius: 10%;
+    color: #007bff;
+}
+
+button#ajouter {
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button#ajouter:hover {
+    background-color: #0056b3; 
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5%;
+}
+
+
+#liste-depenses {
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+#total {
+    background-color: #f3f3f3; 
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+#montant-total {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #007bff; 
+}
